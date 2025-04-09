@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr  9 20:05:45 2025
-
-@author: asiva
-"""
-
 # Caprae Capital Partners — Lead Enricher
 
 🦌 **Great founders working with great founders.**
