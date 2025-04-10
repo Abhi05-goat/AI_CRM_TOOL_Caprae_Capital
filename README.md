@@ -8,7 +8,7 @@ This internal tool enables Caprae Capital Partners to rapidly enrich and qualify
 
 ## ✨ Features
 
-- 🕸️ Website + LinkedIn content scraping  
+- 🔸 Website + LinkedIn content scraping  
 - 🤖 AI enrichment via OpenRouter LLMs  
 - 🔍 Key data extracted:  
   - Founder / Executive info  
@@ -16,7 +16,7 @@ This internal tool enables Caprae Capital Partners to rapidly enrich and qualify
   - Fit with Caprae's investment lens  
   - Revenue estimate  
   - Additional insights & competitors  
-- 📤 Export to JSON or CSV  
+- 📄 Export to JSON or CSV  
 - 🎨 Custom UI with Caprae brand styling
 
 ---
@@ -87,6 +87,19 @@ Check out the full walkthrough here:
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## 📋 Future Enhancements
+
+- **Fallback Resilience**: Add automatic MCP Claude API fallback if OpenRouter fails to respond or returns invalid JSON.
+- **REST API Access**: Expose enrichment as a REST API, enabling enterprise use (e.g., CRM integration, automation).
+- **Guardrails & Hallucination Control**: Fine-tune prompts, integrate latest context windows (LLaMA 4 / 10M tokens) for accuracy.
+- **Modular Prompt Chains**: Design reusable prompt modules for repeated use cases and revenue/funding logic.
+- **Enterprise Scaling**: Transition architecture to cloud-ready MCP servers with horizontal scaling.
+- **Code Automation & Generation**: Investigate dynamic codegen and automation (e.g., self-healing LLM chains).
+- **Developer Enablement**: Refactor code into copy/pasteable modules so new LLM workflows can be built quickly.
+- **Future Tech Stack**: Stay updated with the latest LLaMA, Claude, and GPT capabilities to drive robustness.
 
 ---
 
